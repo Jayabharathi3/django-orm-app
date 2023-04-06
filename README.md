@@ -10,20 +10,47 @@ Include your ER diagram here
 ## DESIGN STEPS
 
 ### STEP 1:
+Clone the problem from the github
 
 ### STEP 2:
+Create a new app
 
 ### STEP 3:
+Enter the code for admin.py and model.py
 
-Write your own steps
+### STEP 4:
+Execute Django admin and create 10 employees
 
 ## PROGRAM
+```
+Admin.py
 
-Include your code here
+from django.contrib import admin
+from .models import Employee,EmployeeAdmin
+admin.site.register(Employee,EmployeeAdmin)
+
+Model.py
+
+from django.db import models
+from django.contrib import admin
+class Employee (models.Model): 
+    eid=models.CharField(max_length=20, help_text="Employee ID") 
+    name=models.CharField(max_length=100) 
+    salary=models.IntegerField()
+    age=models.IntegerField()
+    email=models. EmailField()
+
+class EmployeeAdmin (admin. ModelAdmin):
+    list_display=('eid','name','salary','age','email')
+
+```
+
 
 ## OUTPUT
+![employee](https://user-images.githubusercontent.com/120367796/230316980-b245e447-d560-4545-b8b8-746f42360604.jpg)
 
-Include the screenshot of your admin page.
 
 
 ## RESULT
+
+The  code executed successfully
