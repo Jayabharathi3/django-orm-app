@@ -48,8 +48,14 @@ class EmployeeAdmin (admin. ModelAdmin):
 
 
 ## OUTPUT
-![employee](https://user-images.githubusercontent.com/120367796/230316980-b245e447-d560-4545-b8b8-746f42360604.jpg)
 
+ ## SERVER OUTPUT:
+![jango server](https://user-images.githubusercontent.com/120367796/233534340-9a6322d5-0dbe-4170-921f-9a9b4e7882df.png)
+
+ 
+ ## CLIENT OUTPUT:
+![employee](https://user-images.githubusercontent.com/120367796/230316980-b245e447-d560-4545-b8b8-746f42360604.jpg)
+ 
 
 
 ## RESULT
